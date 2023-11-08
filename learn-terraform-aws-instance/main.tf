@@ -1,4 +1,12 @@
 terraform {
+
+  cloud {
+    organization = "videseva"
+    workspaces {
+      name = "workspaceEva"
+    }
+  }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
