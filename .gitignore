@@ -1,0 +1,4 @@
+# Ignora la carpeta node_modules
+/learn-terraform-aws-instance/.terraform
+/learn-terraform-aws-instance/aws
+/learn-terraform-aws-instance/awscliv2.zip
